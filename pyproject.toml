@@ -1,0 +1,20 @@
+[project]
+name = "lighteval-evaluation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "abhisheksgumadi@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "lighteval (>=0.11.0,<0.12.0)",
+    "accelerate (>=1.10.1,<2.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "emoji (>=2.15.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
